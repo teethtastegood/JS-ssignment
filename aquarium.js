@@ -48,7 +48,7 @@ function surfaceArea() {
 	var length = length.value;
     var width = width.value;
     var height = height.value;
-	var surfaceArea = (2*1*h + 2*w*h + w*1);
+	var surfaceArea = (2*l*h + 2*w*h + w*l);
 	return surfaceArea;
 };
 var surfaceArea = sufaceArea ();
