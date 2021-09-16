@@ -108,11 +108,11 @@ function finalCost() {
 
 	var labour_cost = 60/6000; 
 
-	var subtotal_cost = surfaceCost + (glue*edges) + (labour+surfaceArea) 
+	var subtotal = surfaceCost + (glue * edges) + (labour * surfaceArea) 
 	
 	var gst = 0.1; 
 	
-	var total = (subtotal_cost*gst).toFixed(2); 
+	var total = (subtotal * gst).toFixed(2); 
 	
 	price.innerHTML = total;
 
